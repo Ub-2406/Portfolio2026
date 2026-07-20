@@ -1,0 +1,75 @@
+/* 1. Global Color Schemes */
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: #fbf9fb;        
+  --md-default-fg-color: #2c2e39;        
+}
+
+/* 2. Hide Text Title inside Header Bar */
+.md-header__title .md-ellipsis {
+  display: none !important;
+}
+
+/* 3. Balanced Header Container Footprint */
+.md-header {
+  height: 5.4rem;                       /* Balanced height for text-based logos */
+}
+
+.md-header__inner {
+  height: 100%;                         /* Forces the container to fill the header height */
+  display: flex;
+  align-items: center;                  /* Flex-align items along the center axis */
+  padding: 0 0.8rem !important;  
+}
+
+.md-nav__links {
+  top: 5.4rem;                          
+}
+
+.md-main {
+  padding-top: 5.4rem !important;       /* Snaps the main workspace container tightly to the header */         
+}
+
+/* 4. Flawless Typographic Logo Proportions & Vertical Alignment */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg,
+.md-logo [data-md-component="logo"] {
+  display: none !important;             
+}
+
+.md-header__button.md-logo {
+  display: inline-block !important;
+  width: 280px !important;              
+  height: 4.0rem !important;            /* Slightly lowered height to match the new 5.4rem header rhythm */
+  margin: 0.4rem 0 0 0.4rem !important; /* Elegant alignment space pushing downward */      
+  padding: 0 !important;
+  
+  background-image: url("../images/bbbdlogo.png");
+  background-size: contain;             
+  background-repeat: no-repeat;
+  background-position: left center;     
+}
+
+/* Dynamic Asset Swap for Slate Mode */
+[data-md-color-scheme="slate"] .md-header__button.md-logo {
+  background-image: url("../images/bbbnlogo.png");
+}
+
+/* 5. Reduce Title Top Space on Content Pages */
+.md-content h1:first-of-type {
+  margin-top: 0.0rem 0 0 0rem !important;        /* Snaps the h1 title upwards closer to the divider line */
+}
+
+/* Change Left Sidebar Header Text to "Portfolio" */
+.md-nav__title[for="__drawer"] {
+  visibility: hidden;
+  position: relative;
+}
+
+.md-nav__title[for="__drawer"]::after {
+  content: "Portfolio";
+  visibility: visible;
+  position: absolute;
+  left: 2.8rem;                         /* Aligns perfectly with your navigation links */
+  font-weight: 20000;
+  font-size: 0.9rem;
+}

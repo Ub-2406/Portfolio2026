@@ -1,0 +1,17 @@
+# MkDocs local tracking and compiled output
+site/
+.mkdocs/
+
+# Ignore local python virtual environments
+venv/
+.venv/
+env/
+IPYNB_renderer/
+
+# System specific files (Mac/Windows layout caches)
+.DS_Store
+Thumbs.db
+
+# VS Code environment workspaces
+.vscode/
+*.code-workspace

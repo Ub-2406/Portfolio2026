@@ -1,0 +1,59 @@
+site_name: Portfolio
+site_url: https://Ub-2406.github.io/Portfolio/
+site_description: BIT.BYTE.BUFFER DOCUMENTS Portfolio
+theme:
+  name: material
+  font:
+    text: Times New Roman   
+    code: Roboto Mono       
+  palette:
+    # Light Mode Config
+    - scheme: default
+      primary: white          
+      accent: black           
+      logo: images/bbbdlogo.png
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark Mode Config
+    - scheme: slate
+      primary: black 
+      accent: white     
+      logo: images/bbbnlogo.png  
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.sections      
+    - navigation.top           
+    - toc.integrate            
+    - content.code.copy        
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+
+# Match the file precisely on your disk
+extra_css:
+  - stylesheets/extra.css 
+
+# Explicit Sidebar Navigation Architecture
+nav:
+  - Home: index.md
+  - Sections:
+    - 1. Platform Architecture & Solution Design: Platform-Architecture-&-Solution-Design.md
+    - 2. Requirements Engineering & Lifecycle Management: Requirements-Engineering-&-Lifecycle-Management.md
+    - 3. System Modeling & UML Specification: System-Modeling-&-UML-Specification.md
+    - 4. Data Architecture & Persistence Engineering: Data-Architecture-&-Persistence-Engineering.md
+    - 5. Enterprise Systems Architecture: Enterprise-Systems-Architecture.md
+    - 6. Information Security Assessment: Information-Security-Assessment.md
+    - 7. UX Research & Ethnographic Analysis: UX-Research-&-Ethnographic-Analysis.md
+    - 8. Ethical UX & Dark Pattern Analysis: Ethical-UX-&-Dark-Pattern-Analysis.md
+  - References: References.md
