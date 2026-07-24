@@ -1,0 +1,970 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="BIT.BYTE.BUFFER DOCUMENTS Portfolio">
+      
+      
+      
+        <link rel="canonical" href="https://Ub-2406.github.io/Portfolio2026/System-Modeling-%26-UML-Specification/">
+      
+      
+        <link rel="prev" href="../Requirements-Engineering-%26-Lifecycle-Management/">
+      
+      
+        <link rel="next" href="../Data-Architecture-%26-Persistence-Engineering/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>05 Object-Oriented System Modeling: Unified Modeling Language (UML) Specification - Portfolio</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Times+New+Roman:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Times New Roman";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="black">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#object-oriented-system-modeling-unified-modeling-language-uml-specification" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Portfolio" class="md-header__button md-logo" aria-label="Portfolio" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Portfolio
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              05 Object-Oriented System Modeling: Unified Modeling Language (UML) Specification
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="black"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="white"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Portfolio" class="md-nav__button md-logo" aria-label="Portfolio" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Portfolio
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sections
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Sections
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Platform-Architecture-%26-Solution-Design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Platform Architecture & Solution Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Requirements-Engineering-%26-Lifecycle-Management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Requirements Engineering & Lifecycle Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. System Modeling & UML Specification
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. System Modeling & UML Specification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#object-oriented-system-modeling-unified-modeling-language-uml-specification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Object-Oriented System Modeling: Unified Modeling Language (UML) Specification
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Object-Oriented System Modeling: Unified Modeling Language (UML) Specification">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#object-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Object Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-role-of-object-modeling-in-system-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Role of Object Modeling in System Engineering
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instance-diagram-showing-branch-and-accounts-objects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Instance Diagram Showing Branch and Accounts Objects
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-case-diagram-ama-bank-limited" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use Case Diagram - Ama Bank Limited
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sequence-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sequence Diagram
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-case-diagram-rosy-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use Case Diagram - Rosy Services
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#object-oriented-and-case-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Object Oriented and Case Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Data-Architecture-%26-Persistence-Engineering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Data Architecture & Persistence Engineering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Enterprise-Systems-Architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5. Enterprise Systems Architecture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Information-Security-Assessment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6. Information Security Assessment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UX-Research-%26-Ethnographic-Analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7. UX Research & Ethnographic Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ethical-UX-%26-Dark-Pattern-Analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    8. Ethical UX & Dark Pattern Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../References/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>3. System Modeling & UML Specification</h1>
+
+<hr />
+<p><em>To maintain confidentiality and internal security protocols, specific entity names and geographic locations have been replaced with descriptive architectural identifiers throughout this document.</em></p>
+<hr />
+<h2 id="object-oriented-system-modeling-unified-modeling-language-uml-specification"><strong>Object-Oriented System Modeling: Unified Modeling Language (UML) Specification</strong></h2>
+<h3 id="introduction">Introduction</h3>
+<p>In the Object-Oriented methodology, the focus is on encapsulating the architecture and behavior of information systems into modular components that integrate both data and processes. The fundamental goal of Object-Oriented Design is to improve the standard and productivity of system analysis and design by increasing its overall functionality (<a href="../References/#tutorialspoint2019object">tutorialspoint2019object</a>).</p>
+<p>The Unified Modeling Language (UML) utilizes graphical representations in the form of diagrams. Consequently, a UML diagram provides a specific perspective of the reality modeled by the system. Certain diagrams define which users interact with specific functionalities, while others describe the system's architecture, all without necessitating a specific implementation. UML diagrams are categorized into two primary groups: Structure Diagrams and Behavior Diagrams (<a href="../References/#martina2012">martina2012</a>).</p>
+<ul>
+<li>
+<p>Structure Diagrams include: Class Diagrams, Package Diagrams, Object Diagrams, Component Diagrams, Profile Diagrams, Composite Structure Diagrams, and Deployment Diagrams.</p>
+</li>
+<li>
+<p>Behavior Diagrams comprise: State Machine Diagrams, Use Case Diagrams, Activity Diagrams, and Interaction Diagrams—which further include Sequence Diagrams, Interaction Overview Diagrams, Communication Diagrams, and Timing Diagrams.</p>
+</li>
+</ul>
+<p>This Document aims to utilize UML diagrams for two specific case scenarios: Ama Bank Limited and Rosy Servises.</p>
+<h3 id="object-model">Object Model</h3>
+<p>Based on the provided case study, the central hub for operations is a financial institution situated in the busy area named Titan, identified as Ama Bank Limited. This organization maintains twenty-five distinct branches throughout Ghana, all of which maintain a persistent connection to the central office. To streamline and govern their internal business operations, the bank has commissioned the engineering of a specialized software solution.</p>
+<p>Serving as the project lead, I have been tasked with the architectural delivery of an Object Model and an Instance Diagram for the institution. The core operational logic of the bank involves the central office synchronizing transactions and managerial oversight across the twenty-five branches. These transactions primarily consist of credit and debit actions performed on accounts at the branch level. Within this system, customers possess two primary account classifications: Savings Accounts and Current Accounts.</p>
+<h3 id="the-role-of-object-modeling-in-system-engineering">The Role of Object Modeling in System Engineering</h3>
+<p>In the Unified Modeling Language (UML) framework, an Object Model provides either a comprehensive or a partial structural view of a modeled system at a precise moment in time. It serves as the blueprint for the instances within a system and the specific associations linking them. The Object Diagram specifically captures the state and behavior of an Object once it has been instantiated. These diagrams are vital for documentation because they simplify the visualization of complex functional requirements (<a href="../References/#geeksforgeeks2019uml">geeksforgeeks2019uml</a>).</p>
+<p>The utility of an Object Model in the analysis and design phase is driven by several key factors:</p>
+<ul>
+<li><strong>Instance Illustration:</strong> It provides a concrete representation of system architecture using representative instances and authentic data points.</li>
+<li><strong>Functional Clarity:</strong> It assists in identifying and validating the specific functionalities intended for end-user delivery.</li>
+<li><strong>Relational Visualization:</strong> It offers a transparent view of the interconnectedness between various objects.</li>
+<li><strong>System Lifecycle Support:</strong> It facilitates the visualization, design, construction, and formal documentation of the system's structural integrity.</li>
+<li><strong>Validation:</strong> Object diagrams act as a testing mechanism to verify that class diagrams are both accurate and complete.</li>
+</ul>
+<p>In alignment with these principles, an Object Diagram and an Instance Diagram have been engineered for Ama Bank Limited. Both visual artifacts follow the methodologies proposed by (<a href="../References/#collins2018object">collins2018object</a>). These diagrams delineate a validated object model where the central office regulates the transactional and managerial flow of the twenty-five branches.</p>
+<p>Furthermore, the model illustrates the transactional cycle—comprising debits and credits—executed across the branch network. The two account categories owned by customers are synthesized through UML generalization, where Savings and Current accounts are grouped under the parent entity, "Accounts." In the resulting diagrams, the "Accounts" class is partitioned into Current and Savings specializations. For the purpose of maintaining a clear two-dimensional structural representation, the twenty-five branches are consolidated into a singular representative branch entity.</p>
+<p><img alt="Object Model for Ama Bank" src="../images/objbank.drawio.svg" /></p>
+<blockquote>
+<p>The following details the structural logic and associations within the Object Model for Ama Bank Limited:</p>
+<ul>
+<li><strong>Centralized Management:</strong> The central office maintains oversight of the twenty-five branches. The "1" adjacent to the Head Office indicates a singular administrative authority, while the "*" adjacent to the Branch signifies that the entire branch network is governed by that single central entity.</li>
+<li><strong>Personnel Distribution:</strong> Multiple employees are assigned to a specific branch. The "*" near the Employee indicates that a large workforce belongs to each individual branch, while the "1" on the Branch side of the node confirms that one branch houses many employees.</li>
+<li><strong>Transactional Oversight:</strong> The "1" near the Branch and the connecting "*" near Transaction indicates that every individual branch is responsible for managing its respective volume of transactions.</li>
+<li><strong>Account Maintenance:</strong> The "1" adjacent to the Branch and the "*" adjacent to Accounts signifies that each branch maintains the integrity and records of all accounts under its jurisdiction.</li>
+<li><strong>Customer Ownership:</strong> A single customer is permitted to hold multiple accounts, represented by the "1" near the Customer and the "*" at the Accounts connecting point.</li>
+<li><strong>Debit Operations:</strong> The model illustrates that many transactions are processed as debits, flowing from the "*" Transaction entity to a singular "1" Account.</li>
+<li><strong>Credit Operations:</strong> Similarly, many transactions are processed as credits, directed from the "*" Transaction entity to a specific "1" Account.</li>
+<li><strong>Structural Generalization:</strong> Utilizing the principle of generalization, the specialized Current Account and Savings Account entities are derived from the primary Account class. The triangle-headed arrows serve as the formal notation for this hierarchical generalization.</li>
+</ul>
+</blockquote>
+<h3 id="instance-diagram-showing-branch-and-accounts-objects">Instance Diagram Showing Branch and Accounts Objects</h3>
+<p>Consequently, as demonstrated in the aforementioned object model, for a task to execute between objects within a specific timeframe, a link must be established between two class instances. The instance diagram provided below illustrates the specific relationships existing between the Branch and Account objects.</p>
+<p><img alt="Instance Diagram for Ama Bank Limited" src="../images/instdiag.drawio.svg" /></p>
+<p>To interpret the following illustration, an instance of the Branch class is associated with multiple instances of the Account class. Conversely, a single instance of the Account class is associated with exactly one instance of the Branch class. As depicted in the diagram, the Ama Bank Limited Industrial Area Branch (an instance of the Branch class) maintains a link with two specific instances of the Account class: account numbers 100123 and 201005. This same logic applies to the interpretation of the Ama Bank Limited New Town Branch.</p>
+<h3 id="use-case-diagram-ama-bank-limited">Use Case Diagram - Ama Bank Limited</h3>
+<p>A Use Case specifies a particular segment of required functionality within an application system. Formulated during the analysis phase, it illustrates the various interactions between an actor and the system. An actor may be a human user, a software component, or hardware. Notably, the use case defines the "what" rather than the "how," omitting the internal technical implementation (<a href="../References/#brahma2015basics">brahma2015basics</a>).</p>
+<p>The advantages of utilizing use cases include (<a href="../References/#elenburg2005use">elenburg2005use</a>):</p>
+<ul>
+<li><strong>Contextual Depth:</strong> They provide a comprehensive context for functional requirements.</li>
+<li><strong>Behavioral Communication:</strong> They effectively capture and convey the intended system behavior.</li>
+<li><strong>Stakeholder Alignment:</strong> They are intuitive, which facilitates consensus among stakeholders.</li>
+<li><strong>Iterative Planning:</strong> They serve as a robust planning instrument for iterative development cycles.</li>
+<li><strong>Design Abstraction:</strong> They prevent premature design by detailing system requirements without dictating implementation methods.</li>
+<li><strong>Scope Management:</strong> They help mitigate scope creep by clearly defining the boundaries of interaction between actors and the system.</li>
+</ul>
+<p><img alt="UseCase Diagram for Ama Bank" src="../images/usecasebank.drawio.svg" /></p>
+<p>In a similar fashion, the Use Case diagram above demonstrates the operational workflow at Ama Bank Limited. The identified actors are the Head Office, Branch Manager, Employee, and Customer. The interactions are defined as follows:</p>
+<blockquote>
+<p><strong>(a) Head Office:</strong> This entity has the authority to request and access reports from any of the twenty-five branches.</p>
+<p><strong>(b) Branch Manager:</strong> The manager assigned to a specific branch is responsible for generating that branch's localized reports.</p>
+<p><strong>(c) Employee:</strong> Bank staff execute various operational tasks. These include assisting customers with opening or closing accounts, balance inquiries, crediting and debiting accounts, clearing cheques, and performing transaction entries.</p>
+<p><strong>(d) Customer:</strong> This actor engages in primary transactions such as withdrawing or depositing cash, opening or closing accounts, and checking account balances.</p>
+</blockquote>
+<h3 id="sequence-diagram">Sequence Diagram</h3>
+<p>The Sequence diagram below portrays the steps the head office will follow to get branch report. The steps are:</p>
+<p>(1) The officer at the Head office will have to login to the server.</p>
+<p>(2) The bank server will ask for username and password</p>
+<p>(3) The officer enters the username and password</p>
+<p>(4) The server confirms the login details</p>
+<p>(5) The officer clicks on the Reports Button</p>
+<p>(6) The server requests for Branch ID and Branch Name</p>
+<p>(7) The officer enters the desired Branch ID and Branch Name</p>
+<p>(8) The server confirms the Branch ID and Branch Name and establishing the connecting port to the appropriate Branch.</p>
+<p>(9) Then the officer retrieves the branch report by selecting “Get Branch Report”</p>
+<p>(10) The branch sends all the transaction of the branch in a report form</p>
+<p>(11) The server displays the branch report</p>
+<p>(12) The officer gets a full view of the report and can print it. The print in the sense, can print to pdf or make a hardcopy print. This is the end of the process.</p>
+<p><img alt="Sequence Diagram for Ama Bank" src="../images/seqdiagbank.drawio.svg" /></p>
+<p>A class diagram is a static blueprint categorized as a structural diagram. Notably, class diagrams represent the only UML model that can be directly and seamlessly mapped to object-oriented programming languages. They visually organize a collection of classes, associations, collaborations, interfaces, and system constraints. While class diagrams are extensively utilized for visualizing, specifying, and documenting various dimensions of a system, they also serve a critical role in forward-engineering executable code for software applications. Furthermore, they formally define the attributes, operations, and constraints imposed on the system architecture (<a href="../References/#tutorialspoint2019uml">tutorialspoint2019uml</a>).</p>
+<p>The advantages of utilizing class diagrams include (<a href="../References/#guru2019uml">guru2019uml</a>):</p>
+<ul>
+<li><strong>Schematic Clarity:</strong> They facilitate a superior understanding of the general schematics and structural layout of an application.</li>
+<li><strong>Data Modeling:</strong> They accurately illustrate complex data models for large-scale information systems.</li>
+<li><strong>Maintenance Efficiency:</strong> They aid in reducing long-term system maintenance time by providing clear documentation.</li>
+<li><strong>Code Abstraction:</strong> They offer a high-level conceptual understanding of how the application is structured prior to analyzing the actual source code.</li>
+<li><strong>Development Guidance:</strong> They support the creation of detailed architectural charts by highlighting the exact code components required for implementation.</li>
+</ul>
+<p>The diagram below illustrates the structural relationship and communication path between the "Client" and "Account" classes. For these two entities to interact, a formal link must be established, which is represented as an association. This association is depicted as a solid line connecting the two classes, featuring an arrow that indicates the direction of navigation.The structural logic of this illustration is interpreted as follows: a single client instance ("1") is associated with, and can possess, multiple account instances ("*").</p>
+<p><img alt="Class Diagram for Ama Bank" src="../images/classesbank.drawio.svg" /></p>
+<p>Building upon the structural foundation established in the class diagram, the architecture has been further mapped to an object-oriented UML diagram. The illustration below captures the specific arrangement for the "Checking Account" and "Savings Account" classes.</p>
+<p>These two specialized classes inherit core properties and behaviors from the broader parent class, "Account," through the principle of generalization. Generalization defines a taxonomic relationship that connects a specialized element to a more generalized element, thereby facilitating a clear hierarchical structure. In the diagram below, the triangle-headed arrows directed from both the checking and savings account classes toward the main Account class formally denote this generalization relationship.</p>
+<p><img alt="UML Diagram for Ama Bank" src="../images/classinherit.drawio.svg" /></p>
+<p>The above UML model serves as an effective Computer-Aided Software Engineering (CASE) tool, as it provides a standardized graphical representation for object-oriented programming. It actively supports the planning and visualization phases of software development. Furthermore, it has consistently proven to be an ideal choice for developers across a wide range of functional applications due to its inherent readability and component reusability.</p>
+<p>The primary objective of UML is to deliver a transparent, visual depiction of the relationships existing between distinct classes and entities. This clear representation simplifies the process of understanding the specific behavior of each class object, how information is structured and stored, and the architectural connections maintained with other classes throughout the program (<a href="../References/#friesen2019advantages">friesen2019advantages</a>).</p>
+<h3 id="use-case-diagram-rosy-services">Use Case Diagram - Rosy Services</h3>
+<p>Rosy operates an enterprise named Rosy Servises and intends to systematize its sales procedures. Inventory is purchased in wholesale quantities from various vendors and resold to consumers for a profit. The sales unit at Rosy Servises employs a diverse workforce. A standard salesperson can generate orders based on customer requests and monitor order status. A technical salesperson shares these identical responsibilities but is also qualified to provide technical advice to clients. A sales supervisor is responsible for establishing new customer accounts and conducting creditworthiness evaluations. A dispatcher handles the retrieval of ordered inventory from the warehouse and packages the items for customer shipment.</p>
+<p>To optimize this workflow, the software system must generate a list of unpacked orders and dynamically remove orders from the active queue once they are dispatched. All employees within the facility require system access to review real-time details regarding current stock levels, customer orders, and specific warehouse locations. A re-ordering clerk is responsible for identifying out-of-stock items and procurement from manufacturers. If specific goods are urgently required to fulfill a pending order, they are classified as "priority" products to ensure immediate procurement. The system must automatically flag and recommend these "priority" items to the re-order clerk. Finally, a stock clerk receives incoming manufacturer shipments and organizes them within the warehouse. A use case diagram is utilized below to illustrate the operational architecture of Rosy Servises.</p>
+<p><img alt="Use Case Diagram for Rosy Services" src="../images/rosyusecase.drawio.svg" /></p>
+<p>To interpret the aforementioned use case diagram:</p>
+<p>The actors identified within this use case model must operate in an integrated pipeline, spanning from the initial receipt of a customer order to the final delivery of the product. While the diagram successfully maps the discrete functional capabilities of each actor, representing the sequential dependencies and explicit connections between their respective tasks introduces modeling complexity in a standard use case format.</p>
+<p>The specific functional interactions are defined as follows:</p>
+<blockquote>
+<ul>
+<li><strong>(a) Place Order:</strong> A salesperson generates and assigns a product order based on a specific customer request.</li>
+<li><strong>(b) Check Order Status:</strong> The salesperson monitors the fulfillment state of a customer's order. This use case enables the salesperson to flag the re-order clerk to prioritize missing items, maintaining optimal warehouse inventory. Within the diagram, this dependency is represented by a dashed arrow with the <code>&lt;&lt;include&gt;&gt;</code> stereotype directed from the "Check Order Status" use case to the "Priority Products Ordering" use case.</li>
+<li><strong>(c) Create Customer Account:</strong> The sales supervisor executes the registration process for new customer profiles.</li>
+<li><strong>(d) Check Credit Worthiness:</strong> The sales supervisor evaluates the customer’s credit standing to authorize or restrict order placement.</li>
+<li><strong>(e) Provide Technical Advice:</strong> The technical salesperson delivers specialized technical guidance to customers regarding product specifications.</li>
+<li><strong>(f) Check Stock:</strong> The employee queries the system to verify current inventory availability within the warehouse.</li>
+<li><strong>(g) Priority Products Ordering:</strong> The re-order clerk isolates and processes procurement files that require immediate fulfillment. This use case receives two incoming dashed arrows stereotyped with <code>&lt;&lt;include&gt;&gt;</code> originating from both "Check Stock" and "Check Order Status".</li>
+<li><strong>(h) Products Out of Stock:</strong> The re-order clerk audits inventory levels to distinguish between available and depleted product lines.</li>
+<li><strong>(i) Put Orders in Correct Warehouse:</strong> A stock clerk receives incoming manufacturer shipments and allocates them to their designated warehouse locations.</li>
+<li><strong>(j) Pick Up Ordered Goods:</strong> The dispatcher retrieves the specified inventory items from the warehouse floor.</li>
+<li><strong>(k) Pack Dispatch Goods:</strong> The dispatcher packages the retrieved items, preparing them for transit.</li>
+<li><strong>(l) Deliver to Customers:</strong> The dispatcher executes the final transit phase, delivering the packaged goods to the end consumer.</li>
+</ul>
+</blockquote>
+<h3 id="object-oriented-and-case-tools">Object Oriented and Case Tools</h3>
+<p>The significance of Object-Oriented Analysis and Design (OOAD) in managing system requirements includes the following (<a href="../References/#tutorialspoint2019ooad">tutorialspoint2019ooad</a>):</p>
+<ul>
+<li><strong>Data-Centric Focus:</strong> It prioritizes the structure and integrity of data over the procedural methods emphasized in traditional structured analysis.</li>
+<li><strong>Encapsulation Security:</strong> The core principle of encapsulation enables developers to build isolated, secure components, preventing unintended tampering from other parts of the system.</li>
+<li><strong>Complexity Management:</strong> It provides a robust framework for managing software complexity more efficiently.</li>
+<li><strong>Scalability:</strong> It facilitates a smooth evolutionary path, allowing a system to scale from a small-scale architecture to a large enterprise application.</li>
+</ul>
+<p>Computer-Aided Software Engineering (CASE) refers to the application of automated methodologies and digital tools throughout the software development lifecycle. CASE ensures the delivery of high-value, reliable, and defect-free software applications. By maintaining a disciplined development framework, it assists designers, developers, and testers in remaining aligned with the core project objectives during production. Ultimately, CASE encompasses a wide range of productivity tools that optimize developer effort, establish a clean structural architecture for projects, and maximize operational throughput   (<a href="../References/#pankaj2019case">pankaj2019case</a>).</p>
+<p>The four primary advantages that CASE tools offer to system development process models are:</p>
+<ul>
+<li><strong>Enhanced Product Quality:</strong> The overall standard of the software is elevated due to the structured, systematic approach enforced during development.</li>
+<li><strong>Real-World Alignment:</strong> It bridges the gap between theoretical specifications and real-world functional requirements through automated engineering processes.</li>
+<li><strong>Competitive Advantage:</strong> It provides organizations with a market lead by ensuring the consistent deployment of high-tier, dependable products.</li>
+<li><strong>Reduced Maintenance Costs:</strong> Long-term servicing and maintenance expenses are significantly minimized because specific emphasis is placed on early testing and structural redesign.</li>
+</ul>
+<h3 id="references">References</h3>
+<ul>
+<li>Ankit, J. 2019. Unified Modeling Language (UML) | Object Diagrams. <a href="https://www.geeksforgeeks.org/unified-modeling-language-uml-object-diagrams/">https://www.geeksforgeeks.org/unified-modeling-language-uml-object-diagrams/</a>.</li>
+<li>Brahma, D., and R. Sarnath. 2015. Basics of Object-Oriented Programming. In: Object - Oriented Analysis, Design and Implementation - an Integrated Approach. Springer.</li>
+<li>Collins-Cope, M. 2018. “Object Oriented Analysis and Design Using UML.” In Whitepaper.</li>
+<li>Elenburg, D. 2005. “Use Cases: Background, Best Practices and Benefits.” In MKS White Paper.</li>
+<li>Friesen, M. 2019. List of Advantages of UML. <a href="https://www.techwalla.com/articles/list-of-advantages-of-uml">https://www.techwalla.com/articles/list-of-advantages-of-uml</a>.</li>
+<li>G., Guru. 2019. UML Class Diagram Tutorial with Examples. <a href="https://www.guru99.com/uml-class-diagram.html">https://www.guru99.com/uml-class-diagram.html</a>.</li>
+<li>Martina, S., S. Marion, H. Christian, and K. Gerti. 2012. A Short Tour of UML. Springer.</li>
+<li>Pankaj. 2019. Computer Aided Software Engineering (CASE). <a href="https://www.geeksforgeeks.org/computer-aided-software-engineering-case/">https://www.geeksforgeeks.org/computer-aided-software-engineering-case/</a>.</li>
+<li>TutorialsPoint. 2019a. Object Oriented Approach. <a href="https://www.tutorialspoint.com/system_analysis_and_design/system_analysis_and_design_object_oriented_approach.htm">https://www.tutorialspoint.com/system_analysis_and_design/system_analysis_and_design_object_oriented_approach.htm</a></li>
+<li>TutorialsPoint. 2019b. OOAD - Object Oriented Analysis. <a href="https://www.tutorialspoint.com/object_oriented_analysis_design/ooad_object_oriented_analysis.htm.">https://www.tutorialspoint.com/object_oriented_analysis_design/ooad_object_oriented_analysis.htm.</a></li>
+<li>TutorialsPoint. 2019c. UML-Class Diagrams. <a href="https://www.tutorialspoint.com/uml/uml_class_diagram.htm.">https://www.tutorialspoint.com/uml/uml_class_diagram.htm.</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "navigation.top", "toc.integrate", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,249 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" style="background: transparent; background-color: transparent;" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="652px" height="371px" viewBox="-0.5 -0.5 652 371" content="&lt;mxfile&gt;&lt;diagram id=&quot;rkIAyw_pN2XrkEdk3gUF&quot; name=&quot;Page-1&quot;&gt;7ZnLjpswFIafJptKqbiHLEOYtrNoNVIqtV064IBVg6kxufTpewyGQGCiTJsySptNgn8bn+M/x58jmJjLZP+eoyz+yEJMJ4YW7iemPzGMmTGHTykcKsF1nEqIOAkrST8KK/ITK1FTakFCnHcGCsaoIFlXDFia4kB0NMQ523WHbRjtRs1QhHvCKkC0r34hoYiVqjvzY8cHTKJYhXaNWdWRoHqwWkkeo5DtWpL5MDGXnDFRXSX7JabSu9qX6r53z/Q2iXGciktuMKobtogWam0Tw6Fwq5fJ7MRBLdn5UciUvATxiKQTc6Fl+6Y5FSwDySolgfdiiiiJ5KgA0sC8VkMcMI4EYbKrSEPMKUlhfu84P1xF6rvMYl0LS0rkkpQMC1qfDgUtO9ViLldR108dRG/HG1jkmnHIbao6Fjmj0q4zWb7EK4o30LlwS60/Zb1O7dE/t7C/EfFTgvBIMRdBwIoqaJGsoUJGChuGHOf5SNF8JMBPjW3gwyMcdv44cZ9iluKxrX2YJojQ4WBGJ4yxxVwQgOmigoRf0sNTyPCrOB6DURtaonFDAFmwl0UCX74Ol7uYCLzKUCBn3MER04SRc+P9szDUG8TC0YRZggU/wBB1g6UpKqtjyXBVe9eCvKO0uMV33VIiUgdL1Mx9ZC9cKPwOo9i8FRQ3m/dfZ/GRUqPBuAVGlIxP48+HbKygr3nQjWhtopwFvqE0GCvso9zrOJeBYYcbWn/L3iCeZ84FeHaH8GxfAc/WreB5hbYkjfLBX/0O6hv/B3un5p2aL6Om63apaRsD1JwNUdO8AjXtW6HmsuC8qvM7Ne/UvFPz8rDNVuLnt8mtANOxLgDm4FOAawBz1jMKhxFeqWbKSp61TIBF8cNXaGhvNc2ohW+lYDmzWvDl4rSmdWi3njAnkKfkaClWGciw5x2ELFnBA9x5kiygZrBoPdHo+8wxBUhvu7P/iWdu75DRey7KA6LrXF1qzRlyWpEJCUN5uwf/CchPtC6nkgZljKSizNf2JrYv5yoEU+yXU+eCs+94ySjjxx9NFvCJdIVqtR27U61m7UarWs2BYr1Grc57vr/5b3yfGa/ne/0a7HcgYdldRsznIzLCfj1G6H0kXOyZY3dM08czzBrNMGge3zqWfa1Xt+bDLw==&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <g>
+            <rect x="0" y="0" width="160" height="140" fill="#ffffff" stroke="#000000" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 162px; height: 140px; padding-top: 0px; margin-left: 0px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; width: 160px; height: 140px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; width: 100%; height: 100%; white-space: normal; word-wrap: normal; ">
+                                    <p style="margin:0px;margin-top:4px;text-align:center;text-decoration:underline;">
+                                        <b>
+                                            Client
+                                        </b>
+                                    </p>
+                                    <hr style="border-style:solid;" size="1"/>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Client ID
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Client Nmae
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Account Number
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Address
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Date of Birth
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Phone Number
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        E-mail
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="0" y="12" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        Client...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <rect x="360" y="0" width="180" height="150" fill="#ffffff" stroke="#000000" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 182px; height: 150px; padding-top: 0px; margin-left: 360px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; width: 180px; height: 150px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; width: 100%; height: 100%; white-space: normal; word-wrap: normal; ">
+                                    <p style="margin:0px;margin-top:4px;text-align:center;text-decoration:underline;">
+                                        <b>
+                                            Account
+                                        </b>
+                                    </p>
+                                    <hr style="border-style:solid;" size="1"/>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Account ID
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Account Name
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Account Type
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Client ID
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Client Name
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Amount Balance
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Interest on Account
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="360" y="12" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        Account...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <rect x="480" y="240" width="170" height="130" fill="#ffffff" stroke="#000000" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 172px; height: 130px; padding-top: 240px; margin-left: 480px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; width: 170px; height: 130px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; width: 100%; height: 100%; white-space: normal; word-wrap: normal; ">
+                                    <p style="margin:0px;margin-top:4px;text-align:center;text-decoration:underline;">
+                                        <b>
+                                            Savings Account
+                                        </b>
+                                    </p>
+                                    <hr style="border-style:solid;" size="1"/>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Account ID
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Account Number
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Client ID
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Client Name
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Amount Balance
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Interest on Account
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="480" y="252" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        Savings Account...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <rect x="240" y="240" width="160" height="130" fill="#ffffff" stroke="#000000" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 162px; height: 130px; padding-top: 240px; margin-left: 240px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; width: 160px; height: 130px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; width: 100%; height: 100%; white-space: normal; word-wrap: normal; ">
+                                    <p style="margin:0px;margin-top:4px;text-align:center;text-decoration:underline;">
+                                        <b>
+                                            Current Account
+                                        </b>
+                                    </p>
+                                    <hr style="border-style:solid;" size="1"/>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Account ID
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Account Number
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Client ID
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Client Name
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        Amount Balance
+                                    </p>
+                                    <p style="margin:0px;margin-left:8px;">
+                                        <br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="240" y="252" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        Current Account...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 160 70.01 L 353.99 70.05" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 359.24 70.05 L 352.24 73.55 L 353.99 70.05 L 352.24 66.55 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="165" y="48" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 63px; margin-left: 180px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: nowrap; ">
+                                    1
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="180" y="67" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle">
+                        1
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <rect x="325" y="48" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 63px; margin-left: 340px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: nowrap; ">
+                                    *
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="340" y="67" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle">
+                        *
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 370.6 240 L 437.09 154.58" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 440.31 150.43 L 438.78 158.11 L 437.09 154.58 L 433.25 153.81 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <path d="M 528.47 240 L 481.02 155.55" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 478.45 150.97 L 484.93 155.36 L 481.02 155.55 L 478.83 158.79 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.drawio.com/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Text is not SVG - cannot display
+            </text>
+        </a>
+    </switch>
+</svg>
