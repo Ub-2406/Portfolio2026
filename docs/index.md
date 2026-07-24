@@ -14,7 +14,7 @@ The core stack utilized to design, build, and maintain these architectural docum
 
 ## Architecture
 
-This portfolio is systematically organized into **Eight Differnt Documents** to provide a logical, decoupled verification path through various engineering disciplines:
+This portfolio is systematically organized into **Eight Different Documents** to provide a logical, decoupled verification path through various engineering disciplines:
 
 | Documents | Description | Focus |
 | :--- | :--- | :--- |
