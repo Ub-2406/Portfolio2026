@@ -6,7 +6,7 @@ Welcome to the comprehensive information architecture and system design engineer
 
 Every system layout, requirement matrix, and data schema within this repository is treated as a software component—engineered for absolute structural integrity, clear information velocity, and reliable deployment.
 
-The core stack utilized to design, build, and maintain these architectural pillars consists of:
+The core stack utilized to design, build, and maintain these architectural documents consists of:
 
 * **Development Workspace:** VS Code & Drawio
 * **Authoring Language:** Standard Markdown Syntax
