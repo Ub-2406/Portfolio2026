@@ -37,3 +37,20 @@ This repository acts as the portfolio, compiled dynamically into a web interface
 *Please note that this public-facing showcase represents generalized architectural designs and structural frameworks. The documents deployed and engineered for production environments have been omitted from this repository due to strict **Non-Disclosure Agreements (NDAs)**.*
 
 ---
+
+---
+
+## Contact Details
+
+For payment details regarding project inquiries, information design consultation, or technical engineering collaborations,
+route all communications through the following verified endpoints:
+
+* **Technical Writer:** Ms.Ubaashana Ramesh
+  
+* **Contact:**
+
+      [bitbytebuffer.documents@gmail.com](mailto:bitbytebuffer.documents@gmail.com)
+      
+      [bitbytebuffer.documents@protonmail.com](mailto:bitbytebuffer.documents@protonmail.com)
+
+---

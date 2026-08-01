@@ -42,3 +42,20 @@ To begin evaluating the structural frameworks, utilize the left-hand navigation 
 > academic use without explicit, written permission. Unauthorized misuse of these engineering assets will be subject to appropriate legal review.
 
 ------
+
+------
+
+## Contact Details
+
+For payment details regarding project inquiries, information design consultation, or technical engineering collaborations,
+route all communications through the following verified endpoints:
+
+* **Technical Writer:** Ms.Ubaashana Ramesh
+  
+* **Contact:**
+
+      [bitbytebuffer.documents@gmail.com](mailto:bitbytebuffer.documents@gmail.com)
+      
+      [bitbytebuffer.documents@protonmail.com](mailto:bitbytebuffer.documents@protonmail.com)
+
+------
