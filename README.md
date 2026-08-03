@@ -48,9 +48,7 @@ route all communications through the following verified endpoints:
 * **Technical Writer:** Ms.Ubaashana Ramesh
   
 * **Contact:**
-
-      [bitbytebuffer.documents@gmail.com](mailto:bitbytebuffer.documents@gmail.com)
-      
-      [bitbytebuffer.documents@protonmail.com](mailto:bitbytebuffer.documents@protonmail.com)
+[bitbytebuffer.documents@gmail.com](mailto:bitbytebuffer.documents@gmail.com)
+[bitbytebuffer.documents@protonmail.com](mailto:bitbytebuffer.documents@protonmail.com)
 
 ---
