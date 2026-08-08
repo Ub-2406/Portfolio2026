@@ -50,7 +50,7 @@ To begin evaluating the structural frameworks, utilize the left-hand navigation 
 For payment details regarding project inquiries, information design consultation, or technical engineering collaborations,
 route all communications through the following verified endpoints:
 
-* **Technical Writer:** Ms.Ubaashana Ramesh
+* **Founder | Technical Documentation Engineer:** Ms. R.Ubaashana
   
 * **Contact:**
 

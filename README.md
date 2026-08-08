@@ -45,7 +45,7 @@ This repository acts as the portfolio, compiled dynamically into a web interface
 For payment details regarding project inquiries, information design consultation, or technical engineering collaborations,
 route all communications through the following verified endpoints:
 
-* **Technical Writer:** Ms.Ubaashana Ramesh
+* **Founder | Technical Documentation Engineer:** Ms. R.Ubaashana
   
 * **Contact:**
   * [bitbytebuffer.documents@gmail.com](mailto:bitbytebuffer.documents@gmail.com)
