@@ -47,14 +47,6 @@ This repository and its underlying documentation architecture are proprietary ma
 
 ---
 ---
-License & Intellectual Property Notice
-
-© 2026 BitByteBuffer Documents™. All Rights Reserved.
-
-This repository and its underlying documentation architecture are proprietary materials published solely for demonstration and evaluation purposes. No permission is granted for copying, reuse, distribution, or adaptation.
-
----
----
 
 ## Contact Details
 
