@@ -8,9 +8,9 @@ A professional engineering portfolio deploying 8 strategic architectural documen
 
 The core infrastructure utilized to design, build, version, and maintain these architectural documents consists of:
 
-* **Development Workspace:** VS Code 
+* **Development Workspace:** VS Code
 * **Authoring Language:** Markdown & Draw.io
-* **Static Site Engine:** MkDocs 
+* **Static Site Engine:** MkDocs
 * **Version Control & Hosting Pipeline:** GitHub
 
 ---
