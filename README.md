@@ -37,7 +37,14 @@ This repository acts as the portfolio, compiled dynamically into a web interface
 *Please note that this public-facing showcase represents generalized architectural designs and structural frameworks. The documents deployed and engineered for production environments have been omitted from this repository due to strict **Non-Disclosure Agreements (NDAs)**.*
 
 ---
+---
+License & Intellectual Property Notice
 
+© 2026 BitByteBuffer Documents™. All Rights Reserved.
+
+This repository and its underlying documentation architecture are proprietary materials published solely for demonstration and evaluation purposes. No permission is granted for copying, reuse, distribution, or adaptation.
+
+---
 ---
 
 ## Contact Details
