@@ -8,9 +8,9 @@ A professional engineering portfolio deploying 8 strategic architectural documen
 
 The core infrastructure utilized to design, build, version, and maintain these architectural documents consists of:
 
-* **Development Workspace:** VS Code & Draw.io
-* **Authoring Language:** Extended Markdown Syntax
-* **Static Site Engine:** MkDocs (Material Theme Architecture)
+* **Development Workspace:** VS Code 
+* **Authoring Language:** Markdown & Draw.io
+* **Static Site Engine:** MkDocs 
 * **Version Control & Hosting Pipeline:** GitHub
 
 ---
@@ -35,6 +35,15 @@ This repository acts as the portfolio, compiled dynamically into a web interface
 ## Confidentiality & Non-Disclosure Notice
 
 *Please note that this public-facing showcase represents generalized architectural designs and structural frameworks. The documents deployed and engineered for production environments have been omitted from this repository due to strict **Non-Disclosure Agreements (NDAs)**.*
+
+---
+---
+
+## License & Intellectual Property Notice
+
+© 2026 **BitByteBuffer Documents™**. All Rights Reserved.
+
+This repository and its underlying documentation architecture are proprietary materials published solely for demonstration and evaluation purposes. **No permission is granted for copying, reuse, distribution, or adaptation.**
 
 ---
 ---
